@@ -10,9 +10,9 @@ A: Marilyn Connelly
 |"C"z8|:"F"z8|"D7"z4"G7"z4|"C"z8|
 M: 4/4
 "C"(BB) B(BB3)B|"F"BB B(BB3)B|"D7"BB B2 BB B(c|"G7" B8)|
-w: 1.)Ti mo thy James _ was|chas ing his cat _ The|weat her was _ cloud y but dry|
-w: 2.)Rain _ came down _ _|soft ly at first _ but|Ti mo thy _ paid it no mind|
-w: 3.)Ti mmy got home _ _|drenched to the bone _ his|mo ther looked _ and then she gasped|
+w: 1.)Ti mo thy James _ was|chas ing his cat _ The|weat her was cloud y but dry|
+w: 2.)Rain _ came down _ _|soft ly at first _ but|Ti mo thy paid it no mind|
+w: 3.)Ti mmy got home _ _|drenched to the bone _ his|mo ther looked and then she gasped|
 #
 "C"(BB) B(BB4)|"F"(BB) B(BB2)BB|"D7"(BB) (BB) "G7" BB B(c|"C" B8)|
 w: 1.)Run nin' a long|sing in' a song, _ when a|rain _ drop _ fell in his eye|
