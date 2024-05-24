@@ -1,7 +1,5 @@
 #action-bar {
   padding: 0;
-  position: sticky;
-  top: 72px;
   display: flex;
   z-index: +1;
 }
