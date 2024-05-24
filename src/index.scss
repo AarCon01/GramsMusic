@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+main {
+  text-align: left;
+  margin: 2vh 1vw;
+}
+
+#nav-sub-bar a {
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+// Bootstrap overrides
+@import "bootstrap/scss/functions";
+$primary:   #718980;
+$secondary: #cfd4d1;
+$success:   #718980;
+$info:      #0db0f0;
+$warning:   #f8e7ab;
+$danger:    #cc8583;
+$light:     #f8f9fa;
+$dark:      #e9ecef;
+$body-bg:   #e7e5de;
+$input-bg:  #ffffff;
+@import "bootstrap/scss/bootstrap";

@@ -1,0 +1,47 @@
+header {
+  z-index: +2;
+}
+
+#nav-top-bar {
+  display: flex;
+  padding: .5rem 0;
+}
+
+#nav-top-bar .navbar-collapse {
+  text-align: right;
+}
+
+#nav-top-bar .navbar-brand {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  min-width: 180px;
+}
+
+#nav-top-bar .nav-link {
+  color: #d7d3c8;
+  padding-right: 1rem;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#nav-top-bar .active {
+  color: white;
+}
+
+#nav-top-bar .navbar-toggler {
+  border: none;
+}
+
+#nav-top-bar .navbar-nav {
+  padding-right: 2vw;
+}
+
+.user-menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+#offCanvasNav {
+  background-color: #616491;
+  color: white;
+}

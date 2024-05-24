@@ -1,0 +1,30 @@
+#action-bar {
+  padding: 0;
+  position: sticky;
+  top: 72px;
+  display: flex;
+  z-index: +1;
+}
+
+#action-bar .navbar-brand {
+  float: left;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  min-width: 200px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+#action-bar .nav-link {
+  color: #8ba69c;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#action-bar .active {
+  color: #516b61;
+}
+
+#action-bar .navbar-toggler {
+  margin: 0 1vw;
+}
