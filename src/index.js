@@ -1,29 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import './index.scss';
-
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import GlobalNav from './Layout/GlobalNavBar';
+
 import App from './App';
 import PathNotFound from "./Layout/PathNotFound"
+import GlobalNav from './Layout/GlobalNavBar';
 import OriginalsRoutes from './pages/OriginalsRoutes';
-
-const HomePage = () => {
-  return (
-    <div>
-      <div style={{display: "flex", justifyContent: "center"}}>
-        <h1>Gram's Hall Of Fame</h1>
-      </div>
-      <div style={{display: "flex", textAlign: "center", flexDirection: "column"}}>
-        <p>This website is going to be a tribute to our Grandma and everything that she wrote as well as a place that we can compile all of our favorite songs to have a jam session whereever we are!</p>
-        <p>To start this website off, only <a href="/originals/timothy_james">Timothy James</a> will be available, but I will be updating this frequently. So check back often!</p>
-        <p>I will also be including a progress roadmap in the <a href="/about">About</a> page soon, so take a look at that too!</p>
-      </div>
-    </div>
-  )
-}
+import HomePage from './pages/Home';
+import './index.scss';
+import AboutPage from './pages/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -37,6 +23,7 @@ root.render(
           <Route index element={<HomePage />} />
           <Route path="originals/*" element={<OriginalsRoutes/>} />
           <Route path="*" element={<PathNotFound />} />
+          <Route path="about" element={<AboutPage />} />
           {/* ... etc. */}
         </Route>
       </Routes>
