@@ -44,7 +44,7 @@ const AboutPage = () => {
         </dl>
         <dl>
           <dt>Version 0.5.0</dt>
-          <li>Images of the used in the song?</li>
+          <li>Images of the chords used in the song?</li>
         </dl>
       </div>
       <footer>
